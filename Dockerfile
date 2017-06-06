@@ -1,4 +1,4 @@
-FROM jenkinsci/jnlp-slave-alpine:3.7-1
+FROM jenkinsci/jnlp-slave:3.7-1-alpine
 
 User root
 RUN apk update
